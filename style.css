@@ -1,0 +1,246 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    color: #222;
+  }
+  
+  header{
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;  
+    z-index: 100;
+  }
+  
+  a{
+    display: block;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 20px;
+    margin-left: 120px; 
+  }
+  
+  div{
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+  }
+  
+  main{
+    position: relative;
+    height: auto;
+    width: 50%;  
+  }
+  
+  p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #222;
+    margin-top: 30px;
+  }
+  
+  li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #222;
+  }
+  
+  h1{
+    position:absolute;
+    bottom: 20px;
+    right: 350px;
+    background-color: transparent;
+    color: #222;
+    line-height: 50px;  
+  }
+  
+  h2,h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+  }
+  
+  h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  h3{
+    font-size: 140%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 110%;
+    font-family: 'Rosarivo', serif;
+  }
+  
+  ul{
+    list-style-type: square;
+    line-height: 30px;
+  
+  }
+  
+  aside{
+    position: relative;
+    height: 1000px;
+    width: 35%;
+  }
+  
+  .anakin{
+    font-family: 'Abril Fatface', cursive;
+   
+    background-image: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+    height: 400px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1{
+    position: relative;
+    top: 180px;
+    left: 100px;
+    background-color: transparent;
+    color: #222;
+    line-height: 50px;  
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  #name{
+    font-size: 70px;
+  }
+  
+  blockquote{
+    color: white;
+    background: #474444;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;  
+  }
+  
+  .quote::before{
+    content: "“";
+    position: relative;
+    font-size: 140px;
+  }
+  
+  .together{
+    position: relative;
+    right: 40px;
+    bottom: 150px;
+    width: 500px;
+    height: 600px;
+   
+  }
+  
+  #quote_first{
+    text-align: left;
+    text-indent: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: initial;
+    align-items: center;
+    margin-top: 200px;
+    
+    }
+  
+  #quote_first::before{
+    right: 0px;
+    bottom: 100px; 
+  }
+  
+  #header_text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #222; 
+  }
+  
+  .i_find{
+    position: relative;
+    right: 40px;
+    bottom: 50px;
+    width: 500px;
+    height: 600px;
+  }
+  
+  #quote_second{
+    text-align: left;
+    text-indent: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  #quote_second::before{
+    right: 0px;
+    bottom: 100px; 
+  }
+  
+  .when{
+    position: relative;
+    right: 40px;
+    bottom: 200px;
+    width: 500px;
+    height: 1200px;
+  }
+  
+  #quote_third{
+    text-align: left;
+    text-indent: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+  }
+  
+  #quote_third::before{
+    right: 0px;
+    bottom: 200px; 
+  }
+  
+  #bio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 40px;
+    top: 10px;
+    width: auto;
+    height: auto;
+    
+  }
+  #achievements{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 40px;
+    top: 200px;
+    width: auto;
+    height: auto;  
+  }
+  
+  #experience{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 40px;
+    top: 300px;
+    width: auto;
+    height: auto;  
+  }
+  
+  #training{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 40px;
+    top: 300px;
+    width: auto;
+    height: auto;  
+  }
